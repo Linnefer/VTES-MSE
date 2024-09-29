@@ -5,8 +5,7 @@ icon: card-back.png
 position hint: 3
 version: 2024-09-29
 
-
-
+depends on: VTES-trait-icons.mse-include version: 2024-09-29
 
 
 ############################################################## Functions & filters
@@ -106,6 +105,57 @@ card field:
 	card list column: 1
 
 
+card field:
+	type: text
+	name: name2
+	identifying: false
+	show statistics: false
+	card list visible: false
+	default: card.name
+card field:
+	type: text
+	name: name3
+	identifying: false
+	show statistics: false
+	card list visible: false
+	default: card.name
+card field:
+	type: text
+	name: name4
+	identifying: false
+	show statistics: false
+	card list visible: false
+	default: card.name
+card field:
+	type: text
+	name: name5
+	identifying: false
+	show statistics: false
+	card list visible: false
+	default: card.name
+card field:
+	type: text
+	name: name6
+	identifying: false
+	show statistics: false
+	card list visible: false
+	default: card.name
+card field:
+	type: text
+	name: name7
+	identifying: false
+	show statistics: false
+	card list visible: false
+	default: card.name
+card field:
+	type: text
+	name: name8
+	identifying: false
+	show statistics: false
+	card list visible: false
+	default: card.name
+
+
 ############################### Card sorting / numbering
 
 card field:
@@ -169,7 +219,7 @@ card field:
 		choice: Brujah Antitribu
 		choice: Caitiff
 		choice: Daughter of Cacophony
-		choice: Follower of Set
+		choice: Followers of Set
 		choice: Gangrel
 		choice: Gangrel Antitribu
 		choice: Gargoyle
@@ -232,6 +282,24 @@ card field:
 ############################# Text box
 card field:
 	type: text
+	name: blood
+	show statistics: true
+	multi line: false
+card field:
+	type: choice
+	name: blooddisk
+	show statistics: false
+	editable:false
+	choice: blooddisk
+
+card field:
+	type: text
+	name: group
+	show statistics: true
+	multi line: false
+
+card field:
+	type: text
 	name: rule text
 	show statistics: false
 	multi line: true
@@ -245,5 +313,100 @@ card field:
 	initial: common
 	description: enables custom set symbol
 
+############################# Disciplines
+
+card field:
+	type: choice
+	name: discipline1
+	default: ""
+	include file: /VTES-trait-icons.mse-include/discipline1
+	description: First Discipline
+
+card field:
+	type: choice
+	name: discipline2
+	default: ""
+	include file: /VTES-trait-icons.mse-include/discipline1
+	description: Second Discipline
+
+card field:
+	type: choice
+	name: discipline3
+	default: ""
+	include file: /VTES-trait-icons.mse-include/discipline1
+	description: Third Discipline
+
+card field:
+	type: choice
+	name: discipline4
+	default: ""
+	include file: /VTES-trait-icons.mse-include/discipline1
+	description: Fourth Discipline
+
+card field:
+	type: choice
+	name: discipline5
+	default: ""
+	include file: /VTES-trait-icons.mse-include/discipline1
+	description: Fifth Discipline
+
+card field:
+	type: choice
+	name: discipline6
+	default: ""
+	include file: /VTES-trait-icons.mse-include/discipline1
+	description: Sixth Discipline
+
+card field:
+	type: choice
+	name: discipline7
+	default: ""
+	include file: /VTES-trait-icons.mse-include/discipline1
+	description: Seventh Discipline
+
+card field:
+	type: choice
+	name: bdiscipline1
+	default: ""
+	include file: /VTES-trait-icons.mse-include/discipline2
+	description: First Discipline
+card field:
+	type: choice
+	name: bdiscipline2
+	default: ""
+	include file: /VTES-trait-icons.mse-include/discipline3
+	description: Second Discipline/Burn
+card field:
+	type: choice
+	name: bdiscipline3
+	default: ""
+	include file: /VTES-trait-icons.mse-include/discipline3
+	description: Third Discipline/Burn
+card field:
+	type: choice
+	name: bdiscipline4
+	default: ""
+	include file: /VTES-trait-icons.mse-include/discipline3
+	description: Fourth Discipline/Burn
 
 
+card field:
+	type: choice
+	name: clanA
+	default: ""
+	include file: /VTES-trait-icons.mse-include/clanA
+	description: Clan for a Card
+card field:
+	type: choice
+	name: clanB
+	default: ""
+	include file: /VTES-trait-icons.mse-include/clanB
+	description: 2nd Clan for a Card / Flight
+card field:
+	type: choice
+	name: clanAssamite
+	default: ""
+	choice:
+	choice: AssamiteA
+	choice: AssamiteB
+	choice: AssamiteC
