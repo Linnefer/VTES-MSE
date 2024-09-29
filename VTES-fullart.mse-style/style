@@ -294,7 +294,7 @@ card style:
 	############################# Clan Icons
 	clanA:
 		visible: { card.layout == "library" }
-		left:	68
+		left:	{ if card.layout == "library" then 68 else 1000 }
 		top:	401
 		width:	116
 		height:	128
@@ -304,7 +304,7 @@ card style:
 		include file: 	/VTES-trait-icons.mse-include/trait-images
 	clanB:
 		visible: { card.layout == "library"}
-		left:	{ if card.clanB == "flight" then 71 else 68}
+		left:	{ if card.clanB == "flight" then 71 else if card.layout == "library" then 68 else 1000 }
 		top:	513
 		width:	{ if card.clanB == "flight" then 96 else 116}
 		height:	{ if card.clanB == "flight" then 99 else 128}
@@ -314,7 +314,7 @@ card style:
 		include file: 	/VTES-trait-icons.mse-include/trait-images
 	clanAssamite:
 		visible: { card.layout == "library"}
-		left:	68
+		left:	{ if card.layout == "library" then 68 else 1000 }
 		top:	282
 		width:	116
 		height:	384
