@@ -389,6 +389,13 @@ card field:
 	include file: /VTES-trait-icons.mse-include/discipline3
 	description: Fourth Discipline/Burn
 
+card field:
+	type: choice
+	name: cost
+	default: ""
+	include file: /VTES-trait-icons.mse-include/costs
+	description: Fourth Discipline/Burn
+
 
 card field:
 	type: choice
