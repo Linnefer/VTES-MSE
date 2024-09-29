@@ -84,10 +84,10 @@ card style:
 
 	setsymbol:
 		z index: 10
-		left:	{ if card.layout=="library" then 685 else 650 }
-		top:	{ if card.layout=="library" then 92 else 150 }
-		width:	32
-		height:	33
+		left:	{ if card.layout=="library" then 681 else 650 }
+		top:	{ if card.layout=="library" then 82 else 150 }
+		width:	60
+		height:	60
 		render style: image
 		alignment: middle center
 		angle:	0
