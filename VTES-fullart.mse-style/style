@@ -7,6 +7,7 @@ position hint: 01
 
 version: 2024-09-29
 depends on: VTES.mse-game version: 2024-09-29
+depends on: VTES-trait-icons.mse-include version: 2024-09-29
 
 card width: 819
 card height: 1114
@@ -40,7 +41,7 @@ card style:
 			Crypt Brujah Antitribu:		2020_Crypt_BrujahAntitribu.png
 			Crypt Caitiff:			2020_Crypt_Caitiff.png
 			Crypt Daughter of Cacophony:	2020_Crypt_DaughterofCacophony.png
-			Crypt Follower of Set:		2020_Crypt_FollowerofSet.png
+			Crypt Followers of Set:		2020_Crypt_FollowerofSet.png
 			Crypt Gangrel:			2020_Crypt_Gangrel.png
 			Crypt Gangrel Antitribu:	2020_Crypt_GangrelAntitribu.png
 			Crypt Gargoyle:			2020_Crypt_Gargoyle.png
@@ -111,7 +112,115 @@ card style:
 			shadow displacement y: 2
 			size: 45
 			color: rgb(255,255,255)
-
+	############################# Name Outline
+	name2:
+		left:   89
+		top :   70
+		width:  655
+		angle:	0
+		height: 65
+		alignment: bottom left shrink-overflow
+		padding bottom: 0
+		z index: 4
+		font:
+			name: Matrix-ExtraBold
+			shadow color: rgb(0,0,0)
+			shadow displacement x: -2
+			shadow displacement y: -2
+			size: 45
+			color: rgb(255,255,255)
+	name3:
+		left:   89
+		top :   70
+		width:  655
+		angle:	0
+		height: 65
+		alignment: bottom left shrink-overflow
+		padding bottom: 0
+		z index: 4
+		font:
+			name: Matrix-ExtraBold
+			shadow color: rgb(0,0,0)
+			shadow displacement x: 2
+			shadow displacement y: -2
+			size: 45
+			color: rgb(255,255,255)
+	name4:
+		left:   89
+		top :   70
+		width:  655
+		angle:	0
+		height: 65
+		alignment: bottom left shrink-overflow
+		padding bottom: 0
+		z index: 4
+		font:
+			name: Matrix-ExtraBold
+			shadow color: rgb(0,0,0)
+			shadow displacement x: -2
+			shadow displacement y: 2
+			size: 45
+			color: rgb(255,255,255)
+	name5:
+		left:   89
+		top :   70
+		width:  655
+		angle:	0
+		height: 65
+		alignment: bottom left shrink-overflow
+		padding bottom: 0
+		z index: 4
+		font:
+			name: Matrix-ExtraBold
+			shadow color: rgb(0,0,0)
+			shadow displacement x: 3
+			size: 45
+			color: rgb(255,255,255)
+	name6:
+		left:   89
+		top :   70
+		width:  655
+		angle:	0
+		height: 65
+		alignment: bottom left shrink-overflow
+		padding bottom: 0
+		z index: 4
+		font:
+			name: Matrix-ExtraBold
+			shadow color: rgb(0,0,0)
+			shadow displacement x: -3
+			size: 45
+			color: rgb(255,255,255)
+	name7:
+		left:   89
+		top :   70
+		width:  655
+		angle:	0
+		height: 65
+		alignment: bottom left shrink-overflow
+		padding bottom: 0
+		z index: 4
+		font:
+			name: Matrix-ExtraBold
+			shadow color: rgb(0,0,0)
+			shadow displacement y: -3
+			size: 45
+			color: rgb(255,255,255)
+	name8:
+		left:   89
+		top :   70
+		width:  655
+		angle:	0
+		height: 65
+		alignment: bottom left shrink-overflow
+		padding bottom: 0
+		z index: 4
+		font:
+			name: Matrix-ExtraBold
+			shadow color: rgb(0,0,0)
+			shadow displacement y: 3
+			size: 45
+			color: rgb(255,255,255)
 
 	############################# Image
 	image:
@@ -124,9 +233,217 @@ card style:
 		z index: 5
 		
 	############################# Type line
+	group:
+		visible: { card.layout == "crypt" }
+		left:	189
+		top:	815
+		width:	100
+		height:	50
+		alignment: bottom left shrink-overflow
+		padding bottom: 0
+		z index: 4
+		font:
+			name: Gill Sans MT
+			shadow color: rgb(0,0,0)
+			shadow displacement x: 2
+			shadow displacement y: 2
+			size: 28
+			color: rgb(255,255,255)
 
-	## Printed on card template
+	group:
+		left:	189
+		top:	815
+		width:	100
+		height:	50
+		alignment: bottom left shrink-overflow
+		padding bottom: 0
+		z index: 10
+		font:
+			name: Gill Sans MT
+			shadow color: rgb(0,0,0)
+			shadow displacement x: 2
+			shadow displacement y: 2
+			size: 28
+			color: rgb(255,255,255)
 
+	blood:
+		left:	676
+		top:	956
+		width:	64
+		height:	64
+		alignment: center middle shrink-overflow
+		padding bottom: 0
+		z index: 10
+		font:
+			name: ITC Quorum Std Medium
+			size: 36
+			color: rgb(255,255,255)
+
+	blooddisk:
+		visible: { card.layout=="library" and card.blood != "" }
+		left:	676
+		top:	956
+		width:	64
+		height:	64
+		z index: 9
+		alignment: center middle 
+		render style: image
+		choice images:
+			blooddisk: /VTES-trait-icons.mse-include/blooddisk.png
+
+	############################# Clan Icons
+	clanA:
+		visible: { card.layout == "library" }
+		left:	68
+		top:	401
+		width:	116
+		height:	128
+		render style: image
+		alignment: middle center
+		z index: 6
+		include file: 	/VTES-trait-icons.mse-include/trait-images
+	clanB:
+		visible: { card.layout == "library" and card.clanA != ""}
+		left:	68
+		top:	513
+		width:	116
+		height:	128
+		render style: image
+		alignment: middle center
+		z index: 5
+		include file: 	/VTES-trait-icons.mse-include/trait-images
+	clanAssamite:
+		visible: { card.layout == "library"}
+		left:	68
+		top:	252
+		width:	116
+		height:	384
+		render style: image
+		alignment: middle center
+		z index: 4
+		include file: 	/VTES-trait-icons.mse-include/trait-images
+
+	############################# Disciplines
+	discipline1:
+		visible: { card.layout == "crypt" }
+		left:	{ if card.layout == "crypt" then 83 else 1000 }
+		top:	894
+		width:	72
+		height:	72
+		render style: image
+		alignment: middle center
+		z index: 4
+		include file: 	/VTES-trait-icons.mse-include/trait-images
+
+	discipline2:
+		visible: { card.layout == "crypt" }
+		left:	{ if card.layout == "crypt" then 83 else 1000 }
+		top:	818
+		width:	72
+		height:	72
+		render style: image
+		alignment: middle center
+		z index: 4
+		include file: 	/VTES-trait-icons.mse-include/trait-images
+
+	discipline3:
+		visible: { card.layout == "crypt" }
+		left:	{ if card.layout == "crypt" then 83 else 1000 }
+		top:	742
+		width:	72
+		height:	72
+		render style: image
+		alignment: middle center
+		z index: 4
+		include file: 	/VTES-trait-icons.mse-include/trait-images
+
+	discipline4:
+		visible: { card.layout == "crypt" and card.discipline3 != ""}
+		left:	{ if card.layout == "crypt" then 83 else 1000 }
+		top:	666
+		width:	72
+		height:	72
+		render style: image
+		alignment: middle center
+		z index: 4
+		include file: 	/VTES-trait-icons.mse-include/trait-images
+
+	discipline5:
+		visible: { card.layout == "crypt" and card.discipline4 != ""}
+		left:	{ if card.layout == "crypt" then 83 else 1000 }
+		top:	590
+		width:	72
+		height:	72
+		render style: image
+		alignment: middle center
+		z index: 4
+		include file: 	/VTES-trait-icons.mse-include/trait-images
+
+	discipline6:
+		visible: { card.layout == "crypt" and card.discipline5 != ""}
+		left:	{ if card.layout == "crypt" then 83 else 1000 }
+		top:	514
+		width:	72
+		height:	72
+		render style: image
+		alignment: middle center
+		z index: 4
+		include file: 	/VTES-trait-icons.mse-include/trait-images
+
+	discipline7:
+		visible: { card.layout == "crypt" and card.discipline6 != ""}
+		left:	{ if card.layout == "crypt" then 83 else 1000 }
+		top:	438
+		width:	72
+		height:	72
+		render style: image
+		alignment: middle center
+		z index: 4
+		include file: 	/VTES-trait-icons.mse-include/trait-images
+
+
+
+
+	bdiscipline1:
+		visible: { card.layout == "library" }
+		left:	{ if card.layout == "library" then 83 else 1000 }
+		top:	722
+		width:	72
+		height:	72
+		render style: image
+		alignment: middle center
+		z index: 10
+		include file: 	/VTES-trait-icons.mse-include/trait-images
+	bdiscipline2:
+		visible: { card.layout == "library" and card.bdiscipline1 != ""}
+		left:	{ if card.layout == "library" then 83 else 1000 }
+		top:	656
+		width:	72
+		height:	72
+		render style: image
+		alignment: middle center
+		z index: 10
+		include file: 	/VTES-trait-icons.mse-include/trait-images
+	bdiscipline3:
+		visible: { card.layout == "library" and card.bdiscipline2 != ""}
+		left:	{ if card.layout == "library" then 83 else 1000 }
+		top:	590
+		width:	72
+		height:	72
+		render style: image
+		alignment: middle center
+		z index: 10
+		include file: 	/VTES-trait-icons.mse-include/trait-images
+	bdiscipline4:
+		visible: { card.layout == "library" and card.bdiscipline3 != ""}
+		left:	{ if card.layout == "library" then 83 else 1000 }
+		top:	524
+		width:	72
+		height:	72
+		render style: image
+		alignment: middle center
+		z index: 10
+		include file: 	/VTES-trait-icons.mse-include/trait-images
 
 
 	############################# Text box
@@ -167,6 +484,9 @@ card style:
 		angle:	0
 		font:
 			name: Gill Sans MT
+			shadow color: rgb(0,0,0)
+			shadow displacement x: 2
+			shadow displacement y: 2
 			size: 12
 			color: rgb(255,255,255)
 
@@ -174,28 +494,28 @@ card style:
 
 	number:
 		z index: 5
-		left:	{ if card.layout=="territory" then 481 else 20 }
-		top:	{ if card.layout=="territory" then 420 else 200 }
+		left:	{ 40 }
+		top:	{ 200 }
 		width:	27
-		height:	14
+		height:	20
 		angle:  { if card.layout=="territory" then 90 else 270 }
 		alignment: right middle shrink-overflow
 		font:
 			name: GillSans Light
-			size: 14
+			size: 20
 			color: rgb(255,255,255)
 
 	artist:
 		z index: 4
-		left:	{ if card.layout=="territory" then 481 else 20 }
-		top:	{ if card.layout=="territory" then 390 else 230 }
-		width:	340
-		height:	14
+		left:	{ 40 }
+		top:	{ 235 }
+		width:	550
+		height:	 20
 		angle:  { if card.layout=="territory" then 90 else 270 }
 		alignment: left middle shrink-overflow
 		font:
 			name: BodegaSans Light
-			size: 14
+			size: 20
 			color: rgb(255,255,255)
 
 
