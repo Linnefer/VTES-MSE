@@ -102,3 +102,23 @@ choice images:
 	Clan Tzimisce:	/VTES-trait-icons.mse-include/clan icon - Tzimisce.png
 	Clan Ventrue:	/VTES-trait-icons.mse-include/clan icon - Ventrue.png
 	Clan Ventrue Antitribu:	/VTES-trait-icons.mse-include/clan icon - VentrueAntitribu.png
+
+
+	Blood 1:	/VTES-trait-icons.mse-include/bloodcost-1.png
+	Pool 1:		/VTES-trait-icons.mse-include/poolcost-1.png
+	Blood 2:	/VTES-trait-icons.mse-include/bloodcost-2.png
+	Pool 2: 	/VTES-trait-icons.mse-include/poolcost-2.png
+	Blood 3:	/VTES-trait-icons.mse-include/bloodcost-3.png
+	Pool 3: 	/VTES-trait-icons.mse-include/poolcost-3.png
+	Blood 4:	/VTES-trait-icons.mse-include/bloodcost-4.png
+	Pool 4: 	/VTES-trait-icons.mse-include/poolcost-4.png
+	Blood 5:	/VTES-trait-icons.mse-include/bloodcost-5.png
+	Pool 5: 	/VTES-trait-icons.mse-include/poolcost-5.png
+	Blood 6:	/VTES-trait-icons.mse-include/bloodcost-6.png
+	Pool 6: 	/VTES-trait-icons.mse-include/poolcost-6.png
+	Blood 7:	/VTES-trait-icons.mse-include/bloodcost-7.png
+	Pool 7: 	/VTES-trait-icons.mse-include/poolcost-7.png
+	Blood 8:	/VTES-trait-icons.mse-include/bloodcost-8.png
+	Pool 8: 	/VTES-trait-icons.mse-include/poolcost-8.png
+	Blood 9:	/VTES-trait-icons.mse-include/bloodcost-9.png
+	Pool 9: 	/VTES-trait-icons.mse-include/poolcost-9.png
