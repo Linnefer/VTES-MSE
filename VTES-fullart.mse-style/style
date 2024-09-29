@@ -315,7 +315,7 @@ card style:
 	clanAssamite:
 		visible: { card.layout == "library"}
 		left:	68
-		top:	252
+		top:	282
 		width:	116
 		height:	384
 		render style: image
