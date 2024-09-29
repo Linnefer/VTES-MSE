@@ -1,0 +1,201 @@
+mse version: 2.0.0
+game: VTES
+short name: VTES
+full name: 2020 Template
+icon: card-sample.png
+position hint: 01
+
+version: 2024-09-29
+depends on: VTES.mse-game version: 2024-09-29
+
+card width: 819
+card height: 1114
+card dpi: 200
+
+############################################################## Extra scripts
+	
+############################################################## Set info fields
+
+############################################################## Extra style options
+
+############################################################## Card fields
+card style:
+	############################# Background stuff
+	cardtype:
+		left:	0
+		top:	0
+		width:	819
+		height:	1114
+		z index: 0
+		render style: image
+		popup style: in place
+		choice images:
+			Crypt Abomination:		2020_Crypt_Abomination.png
+			Crypt Ahrimane:			2020_Crypt_Ahrimane.png
+			Crypt Akunanse:			2020_Crypt_Akunanse.png
+			Crypt Assamite:			2020_Crypt_Assamite.png
+			Crypt Baali:			2020_Crypt_Baali.png
+			Crypt Blood Brother:		2020_Crypt_Blood Brother.png
+			Crypt Brujah:			2020_Crypt_Brujah.png
+			Crypt Brujah Antitribu:		2020_Crypt_BrujahAntitribu.png
+			Crypt Caitiff:			2020_Crypt_BrujahAntitribu.png
+			Crypt Daughter of Cacophony:	2020_Crypt_BrujahAntitribu.png
+			Crypt Follower of Set:		2020_Crypt_BrujahAntitribu.png
+			Crypt Gangrel:			2020_Crypt_BrujahAntitribu.png
+			Crypt Gangrel Antitribu:	2020_Crypt_BrujahAntitribu.png
+			Crypt Gargoyle:			2020_Crypt_BrujahAntitribu.png
+			Crypt Giovanni:			2020_Crypt_BrujahAntitribu.png
+			Crypt Guruhi:			2020_Crypt_BrujahAntitribu.png
+			Crypt Harbinger of Skulls:	2020_Crypt_BrujahAntitribu.png
+			Crypt Kiasyd:			2020_Crypt_BrujahAntitribu.png
+			Crypt Lasombra:			2020_Crypt_BrujahAntitribu.png
+			Crypt Malkavian:		2020_Crypt_BrujahAntitribu.png
+			Crypt Malkavian Antitribu:	2020_Crypt_BrujahAntitribu.png
+			Crypt Nagaraja:			2020_Crypt_BrujahAntitribu.png
+			Crypt Nosferatu:		2020_Crypt_BrujahAntitribu.png
+			Crypt Nosferatu Antitribu:	2020_Crypt_BrujahAntitribu.png
+			Crypt Osebo:			2020_Crypt_BrujahAntitribu.png
+			Crypt Pander:			2020_Crypt_BrujahAntitribu.png
+			Crypt Ravnos:			2020_Crypt_BrujahAntitribu.png
+			Crypt Salubri:			2020_Crypt_BrujahAntitribu.png
+			Crypt Salubri Antitribu:	2020_Crypt_BrujahAntitribu.png
+			Crypt Samedi:			2020_Crypt_BrujahAntitribu.png
+			Crypt Toreador:			2020_Crypt_BrujahAntitribu.png
+			Crypt Toreador Antitribu:	2020_Crypt_BrujahAntitribu.png
+			Crypt Tremere:			2020_Crypt_BrujahAntitribu.png
+			Crypt Tremere Antitribu:	2020_Crypt_BrujahAntitribu.png
+			Crypt True Brujah:		2020_Crypt_BrujahAntitribu.png
+			Crypt Tzimisce:			2020_Crypt_BrujahAntitribu.png
+			Crypt Ventrue:			2020_Crypt_BrujahAntitribu.png
+			Crypt Ventrue Antitribu:	2020_Crypt_BrujahAntitribu.png
+			Library Action:			2020_Library_Action.png
+			Library Action Modifier:	2020_Library_ActionModifier.png
+			Library Ally:			2020_Library_Ally.png
+			Library Combat:			2020_Library_Combat.png
+			Library Equipment:		2020_Library_Equipment.png
+			Library Master:			2020_Library_Master.png
+			Library Political Action:	2020_Library_PoliticalAction.png
+			Library Reaction:		2020_Library_Reaction.png
+			Library Retainer:		2020_Library_Retainer.png
+
+
+	############################# Set box
+
+	setsymbol:
+		z index: 10
+		left:	{ if card.layout=="library" then 685 else 650 }
+		top:	{ if card.layout=="library" then 92 else 150 }
+		width:	32
+		height:	33
+		render style: image
+		alignment: middle center
+		angle:	0
+		choice images:
+			common:   script: symbol_variation(symbol: set.symbol, variation: "common")
+
+
+	############################# Name line
+	name:
+		left:   89
+		top :   70
+		width:  655
+		angle:	0
+		height: 65
+		alignment: bottom left shrink-overflow
+		padding bottom: 0
+		z index: 5
+		font:
+			name: Matrix-ExtraBold
+			size: 45
+			color: rgb(255,255,255)
+
+
+	############################# Image
+	image:
+		left:	{ if card.layout=="library" then 190 else 184 }
+		top:	{ if card.layout=="library" then 154 else 135 }
+		width:	{ if card.layout=="library" then 544 else 550 }
+		height:	{ if card.layout=="library" then 472 else 715 }
+		mask: { if card.layout=="crypt" then "charactermask.jpg" }
+		angle:	0
+		z index: 5
+		
+	############################# Type line
+
+	## Printed on card template
+
+
+
+	############################# Text box
+	rule text:
+		left: { if card.layout=="library" then 199 else 189 }
+		top : { if card.layout=="library" then 686 else 858 }
+		width: { if card.layout=="library" then 527 else 545 }
+		height: { if card.layout=="library" then 320 else 145 }
+		font:
+			name: Gill Sans MT
+			size: 21
+			scale down to: 12
+			color: rgb(0,0,0)
+		alignment: left middle
+		z index: 9
+		padding left:   3
+		padding top:    0
+		padding right:  3
+		padding bottom: 0
+		line height hard: 1.1
+		line height line: 1.1
+		line height soft: 0.75
+		line height hard max: 0.9
+		line height line max: 1.6
+		angle:	0
+
+
+	############################# Copyright stuff
+
+
+	copyrighttext:
+		z index: 5
+		left:	184
+		top:	{ if card.layout=="library" then 666 else 840 }
+		width:	{ if card.layout=="library" then 544 else 550 }
+		height:	14
+		alignment: right bottom shrink-overflow
+		angle:	0
+		font:
+			name: Gill Sans MT
+			size: 12
+			color: rgb(255,255,255)
+
+	############################# Artist
+
+	number:
+		z index: 5
+		left:	{ if card.layout=="territory" then 481 else 20 }
+		top:	{ if card.layout=="territory" then 420 else 200 }
+		width:	27
+		height:	14
+		angle:  { if card.layout=="territory" then 90 else 270 }
+		alignment: right middle shrink-overflow
+		font:
+			name: GillSans Light
+			size: 14
+			color: rgb(255,255,255)
+
+	artist:
+		z index: 4
+		left:	{ if card.layout=="territory" then 481 else 20 }
+		top:	{ if card.layout=="territory" then 390 else 230 }
+		width:	340
+		height:	14
+		angle:  { if card.layout=="territory" then 90 else 270 }
+		alignment: left middle shrink-overflow
+		font:
+			name: BodegaSans Light
+			size: 14
+			color: rgb(255,255,255)
+
+
+
+	############################# Extra Card Styles
+
