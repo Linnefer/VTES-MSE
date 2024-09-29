@@ -1,0 +1,35 @@
+# The choices for first column of character trait line (faction/fera/garou tribe)
+# Included by a game file
+
+choice:
+choice: 
+	name:	Discipline
+	choice:	Abombwe
+	choice: Animalism
+	choice: Auspex
+	choice: Celerity
+	choice: Chimerstry
+	choice: Daimoinon
+	choice: Dementation
+	choice: Dominate
+	choice: Fortitude
+	choice: Maleficia
+	choice: Melpominee
+	choice: Mytherceria
+	choice: Obeah
+	choice: Obfuscate
+	choice: Obtenebration
+	choice: Potence
+	choice: Presence
+	choice: Protean
+	choice: Quietus
+	choice: Sanguinus
+	choice: Serpentis
+	choice: Spiritus
+	choice: Striga
+	choice: Temporis
+	choice: Thanatosis
+	choice: Thaumaturgy
+	choice: Valeran
+	choice: Vicissitude
+	choice: Visceratika

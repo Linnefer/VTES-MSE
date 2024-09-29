@@ -1,0 +1,44 @@
+# The choices for first column of character trait line (faction/fera/garou tribe)
+# Included by a game file
+
+choice:
+choice: 
+	name:	Clan
+	choice: Abomination
+	choice: Ahrimane
+	choice: Akunanse
+#	choice: Assamite
+	choice: Baali
+	choice: Blood Brother
+	choice: Brujah
+	choice: Brujah Antitribu
+	choice: Caitiff
+	choice: Daughter of Cacophony
+	choice: Followers of Set
+	choice: Gangrel
+	choice: Gangrel Antitribu
+	choice: Gargoyle
+	choice: Giovanni
+	choice: Guruhi
+	choice: Harbinger of Skulls
+	choice: Kiasyd
+	choice: Lasombra
+	choice: Malkavian
+	choice: Malkavian Antitribu
+	choice: Nagaraja
+	choice: Nosferatu
+	choice: Nosferatu Antitribu
+	choice: Osebo
+	choice: Pander
+	choice: Ravnos
+	choice: Salubri
+	choice: Salubri Antitribu
+	choice: Samedi
+	choice: Toreador
+	choice: Toreador Antitribu
+	choice: Tremere
+	choice: Tremere Antitribu
+	choice: True Brujah
+	choice: Tzimisce
+	choice: Ventrue
+	choice: Ventrue Antitribu

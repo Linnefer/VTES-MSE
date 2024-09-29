@@ -1,0 +1,104 @@
+# Glyph allocation
+
+choice images:
+	Burn:				/VTES-trait-icons.mse-include/Burn.png
+	Discipline Abombwe:		/VTES-trait-icons.mse-include/Discipline_Abombwe.png
+	Discipline Animalism:		/VTES-trait-icons.mse-include/Discipline_Animalism.png
+	Discipline Auspex:		/VTES-trait-icons.mse-include/Discipline_Auspex.png
+	Discipline Celerity:		/VTES-trait-icons.mse-include/Discipline_Celerity.png
+	Discipline Chimerstry:		/VTES-trait-icons.mse-include/Discipline_Chimerstry.png
+	Discipline Daimoinon:		/VTES-trait-icons.mse-include/Discipline_Daimoinon.png
+	Discipline Dementation:		/VTES-trait-icons.mse-include/Discipline_Dementation.png
+	Discipline Dominate:		/VTES-trait-icons.mse-include/Discipline_Dominate.png
+	Discipline Fortitude:		/VTES-trait-icons.mse-include/Discipline_Fortitude.png
+	Discipline Maleficia:		/VTES-trait-icons.mse-include/Discipline_Maleficia.png
+	Discipline Melpominee:		/VTES-trait-icons.mse-include/Discipline_Melpominee.png
+	Discipline Mytherceria:		/VTES-trait-icons.mse-include/Discipline_Mytherceria.png
+	Discipline Obeah:		/VTES-trait-icons.mse-include/Discipline_Obeah.png
+	Discipline Obfuscate:		/VTES-trait-icons.mse-include/Discipline_Obfuscate.png
+	Discipline Obtenebration:	/VTES-trait-icons.mse-include/Discipline_Obtenebration.png
+	Discipline Potence:		/VTES-trait-icons.mse-include/Discipline_Potence.png
+	Discipline Presence:		/VTES-trait-icons.mse-include/Discipline_Presence.png
+	Discipline Protean:		/VTES-trait-icons.mse-include/Discipline_Protean.png
+	Discipline Quietus:		/VTES-trait-icons.mse-include/Discipline_Quietus.png
+	Discipline Sanguinus:		/VTES-trait-icons.mse-include/Discipline_Sanguinus.png
+	Discipline Serpentis:		/VTES-trait-icons.mse-include/Discipline_Serpentis.png
+	Discipline Spiritus:		/VTES-trait-icons.mse-include/Discipline_Spiritus.png
+	Discipline Striga:		/VTES-trait-icons.mse-include/Discipline_Striga.png
+	Discipline Temporis:		/VTES-trait-icons.mse-include/Discipline_Temporis.png
+	Discipline Thanatosis:		/VTES-trait-icons.mse-include/Discipline_Thanatosis.png
+	Discipline Thaumaturgy:		/VTES-trait-icons.mse-include/Discipline_Thaumaturgy.png
+	Discipline Valeran:		/VTES-trait-icons.mse-include/Discipline_Valeran.png
+	Discipline Vicissitude:		/VTES-trait-icons.mse-include/Discipline_Vicissitude.png
+	Discipline Visceratika:		/VTES-trait-icons.mse-include/Discipline_Visceratika.png
+	Superior Discipline Abombwe:	/VTES-trait-icons.mse-include/Discipline_AbombweSUP.png
+	Superior Discipline Animalism:	/VTES-trait-icons.mse-include/Discipline_AnimalismSUP.png
+	Superior Discipline Auspex:	/VTES-trait-icons.mse-include/Discipline_AuspexSUP.png
+	Superior Discipline Celerity:	/VTES-trait-icons.mse-include/Discipline_CeleritySUP.png
+	Superior Discipline Chimerstry:	/VTES-trait-icons.mse-include/Discipline_ChimerstrySUP.png
+	Superior Discipline Daimoinon:	/VTES-trait-icons.mse-include/Discipline_DaimoinonSUP.png
+	Superior Discipline Dementation:	/VTES-trait-icons.mse-include/Discipline_DementationSUP.png
+	Superior Discipline Dominate:	/VTES-trait-icons.mse-include/Discipline_DominateSUP.png
+	Superior Discipline Fortitude:	/VTES-trait-icons.mse-include/Discipline_FortitudeSUP.png
+	Superior Discipline Maleficia:	/VTES-trait-icons.mse-include/Discipline_MaleficiaSUP.png
+	Superior Discipline Melpominee:	/VTES-trait-icons.mse-include/Discipline_MelpomineeSUP.png
+	Superior Discipline Mytherceria:	/VTES-trait-icons.mse-include/Discipline_MytherceriaSUP.png
+	Superior Discipline Obeah:	/VTES-trait-icons.mse-include/Discipline_ObeahSUP.png
+	Superior Discipline Obfuscate:	/VTES-trait-icons.mse-include/Discipline_ObfuscateSUP.png
+	Superior Discipline Obtenebration:	/VTES-trait-icons.mse-include/Discipline_ObtenebrationSUP.png
+	Superior Discipline Potence:	/VTES-trait-icons.mse-include/Discipline_PotenceSUP.png
+	Superior Discipline Presence:	/VTES-trait-icons.mse-include/Discipline_PresenceSUP.png
+	Superior Discipline Protean:	/VTES-trait-icons.mse-include/Discipline_ProteanSUP.png
+	Superior Discipline Quietus:	/VTES-trait-icons.mse-include/Discipline_QuietusSUP.png
+	Superior Discipline Sanguinus:	/VTES-trait-icons.mse-include/Discipline_SanguinusSUP.png
+	Superior Discipline Serpentis:	/VTES-trait-icons.mse-include/Discipline_SerpentisSUP.png
+	Superior Discipline Spiritus:	/VTES-trait-icons.mse-include/Discipline_SpiritusSUP.png
+	Superior Discipline Striga:	/VTES-trait-icons.mse-include/Discipline_StrigaSUP.png
+	Superior Discipline Temporis:	/VTES-trait-icons.mse-include/Discipline_TemporisSUP.png
+	Superior Discipline Thanatosis:	/VTES-trait-icons.mse-include/Discipline_ThanatosisSUP.png
+	Superior Discipline Thaumaturgy:	/VTES-trait-icons.mse-include/Discipline_ThaumaturgySUP.png
+	Superior Discipline Valeran:	/VTES-trait-icons.mse-include/Discipline_ValeranSUP.png
+	Superior Discipline Vicissitude:	/VTES-trait-icons.mse-include/Discipline_VicissitudeSUP.png
+	Superior Discipline Visceratika:	/VTES-trait-icons.mse-include/Discipline_VisceratikaSUP.png
+
+	flight: /VTES-trait-icons.mse-include/FlightRev2.png
+	Clan Abomination:	/VTES-trait-icons.mse-include/clan icon - Abomination.png
+	Clan Ahrimane:	/VTES-trait-icons.mse-include/clan icon - Ahrimane.png
+	Clan Akunanse:	/VTES-trait-icons.mse-include/clan icon - Akunanse.png
+	AssamiteA:	/VTES-trait-icons.mse-include/clan icon - AssamiteBottomSMALLER.png
+	AssamiteB:	/VTES-trait-icons.mse-include/clan icon - AssamiteMiddleSMALLER.png
+	AssamiteC:	/VTES-trait-icons.mse-include/clan icon - AssamiteTopSMALLER.png
+	Clan Baali:	/VTES-trait-icons.mse-include/clan icon - Baali.png
+	Clan Blood Brother:	/VTES-trait-icons.mse-include/clan icon - Blood Brother.png
+	Clan Brujah:	/VTES-trait-icons.mse-include/clan icon - Brujah.png
+	Clan Brujah Antitribu:	/VTES-trait-icons.mse-include/clan icon - Brujah Antitribu.png
+	Clan Caitiff:	/VTES-trait-icons.mse-include/clan icon - Caitiff.png
+	Clan Daughter of Cacophony:	/VTES-trait-icons.mse-include/clan icon - Daughter of Cacophony.png
+	Clan Followers of Set:	/VTES-trait-icons.mse-include/clan icon - Followers of Set.png
+	Clan Gangrel:	/VTES-trait-icons.mse-include/clan icon - Gangrel.png
+	Clan Gangrel Antitribu:	/VTES-trait-icons.mse-include/clan icon - GangrelAntitribu.png
+	Clan Gargoyle:	/VTES-trait-icons.mse-include/clan icon - Gargoyle.png
+	Clan Giovanni:	/VTES-trait-icons.mse-include/clan icon - Giovanni.png
+	Clan Guruhi:	/VTES-trait-icons.mse-include/clan icon - Guruhi.png
+	Clan Harbinger of Skulls:	/VTES-trait-icons.mse-include/clan icon - HarbingerSkulls.png
+	Clan Kiasyd:	/VTES-trait-icons.mse-include/clan icon - Kiasyd.png
+	Clan Lasombra:	/VTES-trait-icons.mse-include/clan icon - Lasombra.png
+	Clan Malkavian:	/VTES-trait-icons.mse-include/clan icon - Malkavian.png
+	Clan Malkavian Antitribu:	/VTES-trait-icons.mse-include/clan icon - MalkavianAntitribu.png
+	Clan Nagaraja:	/VTES-trait-icons.mse-include/clan icon - Nagaraja.png
+	Clan Nosferatu:	/VTES-trait-icons.mse-include/clan icon - Nosferatu.png
+	Clan Nosferatu Antitribu:	/VTES-trait-icons.mse-include/clan icon - NosferatuAntitribu.png
+	Clan Osebo:	/VTES-trait-icons.mse-include/clan icon - Osebo.png
+	Clan Pander:	/VTES-trait-icons.mse-include/clan icon - Pander.png
+	Clan Ravnos:	/VTES-trait-icons.mse-include/clan icon - Ravnos.png
+	Clan Salubri:	/VTES-trait-icons.mse-include/clan icon - Salubri.png
+	Clan Salubri Antitribu:	/VTES-trait-icons.mse-include/clan icon - SalubriAntitribu.png
+	Clan Samedi:	/VTES-trait-icons.mse-include/clan icon - Samedi.png
+	Clan Toreador:	/VTES-trait-icons.mse-include/clan icon - Toreador.png
+	Clan Toreador Antitribu:	/VTES-trait-icons.mse-include/clan icon - ToreadorAntitribu.png
+	Clan Tremere:	/VTES-trait-icons.mse-include/clan icon - Tremere.png
+	Clan Tremere Antitribu:	/VTES-trait-icons.mse-include/clan icon - TremereAntitribu.png
+	Clan True Brujah:	/VTES-trait-icons.mse-include/clan icon - TrueBrujah.png
+	Clan Tzimisce:	/VTES-trait-icons.mse-include/clan icon - Tzimisce.png
+	Clan Ventrue:	/VTES-trait-icons.mse-include/clan icon - Ventrue.png
+	Clan Ventrue Antitribu:	/VTES-trait-icons.mse-include/clan icon - VentrueAntitribu.png
