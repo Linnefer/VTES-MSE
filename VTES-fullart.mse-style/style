@@ -38,36 +38,36 @@ card style:
 			Crypt Blood Brother:		2020_Crypt_Blood Brother.png
 			Crypt Brujah:			2020_Crypt_Brujah.png
 			Crypt Brujah Antitribu:		2020_Crypt_BrujahAntitribu.png
-			Crypt Caitiff:			2020_Crypt_BrujahAntitribu.png
-			Crypt Daughter of Cacophony:	2020_Crypt_BrujahAntitribu.png
-			Crypt Follower of Set:		2020_Crypt_BrujahAntitribu.png
-			Crypt Gangrel:			2020_Crypt_BrujahAntitribu.png
-			Crypt Gangrel Antitribu:	2020_Crypt_BrujahAntitribu.png
-			Crypt Gargoyle:			2020_Crypt_BrujahAntitribu.png
-			Crypt Giovanni:			2020_Crypt_BrujahAntitribu.png
-			Crypt Guruhi:			2020_Crypt_BrujahAntitribu.png
-			Crypt Harbinger of Skulls:	2020_Crypt_BrujahAntitribu.png
-			Crypt Kiasyd:			2020_Crypt_BrujahAntitribu.png
-			Crypt Lasombra:			2020_Crypt_BrujahAntitribu.png
-			Crypt Malkavian:		2020_Crypt_BrujahAntitribu.png
-			Crypt Malkavian Antitribu:	2020_Crypt_BrujahAntitribu.png
-			Crypt Nagaraja:			2020_Crypt_BrujahAntitribu.png
-			Crypt Nosferatu:		2020_Crypt_BrujahAntitribu.png
-			Crypt Nosferatu Antitribu:	2020_Crypt_BrujahAntitribu.png
-			Crypt Osebo:			2020_Crypt_BrujahAntitribu.png
-			Crypt Pander:			2020_Crypt_BrujahAntitribu.png
-			Crypt Ravnos:			2020_Crypt_BrujahAntitribu.png
-			Crypt Salubri:			2020_Crypt_BrujahAntitribu.png
-			Crypt Salubri Antitribu:	2020_Crypt_BrujahAntitribu.png
-			Crypt Samedi:			2020_Crypt_BrujahAntitribu.png
-			Crypt Toreador:			2020_Crypt_BrujahAntitribu.png
-			Crypt Toreador Antitribu:	2020_Crypt_BrujahAntitribu.png
-			Crypt Tremere:			2020_Crypt_BrujahAntitribu.png
-			Crypt Tremere Antitribu:	2020_Crypt_BrujahAntitribu.png
-			Crypt True Brujah:		2020_Crypt_BrujahAntitribu.png
-			Crypt Tzimisce:			2020_Crypt_BrujahAntitribu.png
-			Crypt Ventrue:			2020_Crypt_BrujahAntitribu.png
-			Crypt Ventrue Antitribu:	2020_Crypt_BrujahAntitribu.png
+			Crypt Caitiff:			2020_Crypt_Caitiff.png
+			Crypt Daughter of Cacophony:	2020_Crypt_DaughterofCacophony.png
+			Crypt Follower of Set:		2020_Crypt_FollowerofSet.png
+			Crypt Gangrel:			2020_Crypt_Gangrel.png
+			Crypt Gangrel Antitribu:	2020_Crypt_GangrelAntitribu.png
+			Crypt Gargoyle:			2020_Crypt_Gargoyle.png
+			Crypt Giovanni:			2020_Crypt_Giovanni.png
+			Crypt Guruhi:			2020_Crypt_Guruhi.png
+			Crypt Harbinger of Skulls:	2020_Crypt_HarbingerofSkulls.png
+			Crypt Kiasyd:			2020_Crypt_Kiasyd.png
+			Crypt Lasombra:			2020_Crypt_Lasombra.png
+			Crypt Malkavian:		2020_Crypt_Malkavian.png
+			Crypt Malkavian Antitribu:	2020_Crypt_MalkavianAntitribu.png
+			Crypt Nagaraja:			2020_Crypt_Nagaraja.png
+			Crypt Nosferatu:		2020_Crypt_Nosferatu.png
+			Crypt Nosferatu Antitribu:	2020_Crypt_NosferatuAntitribu.png
+			Crypt Osebo:			2020_Crypt_Osebo.png
+			Crypt Pander:			2020_Crypt_Pander.png
+			Crypt Ravnos:			2020_Crypt_Ravnos.png
+			Crypt Salubri:			2020_Crypt_Salubri.png
+			Crypt Salubri Antitribu:	2020_Crypt_SalubriAntitribu.png
+			Crypt Samedi:			2020_Crypt_Samedi.png
+			Crypt Toreador:			2020_Crypt_Toreador.png
+			Crypt Toreador Antitribu:	2020_Crypt_ToreadorAntitribu.png
+			Crypt Tremere:			2020_Crypt_Tremere.png
+			Crypt Tremere Antitribu:	2020_Crypt_TremereAntitribu.png
+			Crypt True Brujah:		2020_Crypt_TrueBrujah.png
+			Crypt Tzimisce:			2020_Crypt_Tzimisce.png
+			Crypt Ventrue:			2020_Crypt_Ventrue.png
+			Crypt Ventrue Antitribu:	2020_Crypt_VentrueAntitribu.png
 			Library Action:			2020_Library_Action.png
 			Library Action Modifier:	2020_Library_ActionModifier.png
 			Library Ally:			2020_Library_Ally.png
@@ -106,6 +106,9 @@ card style:
 		z index: 5
 		font:
 			name: Matrix-ExtraBold
+			shadow color: rgb(0,0,0)
+			shadow displacement x: 2
+			shadow displacement y: 2
 			size: 45
 			color: rgb(255,255,255)
 
