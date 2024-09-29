@@ -303,11 +303,11 @@ card style:
 		z index: 6
 		include file: 	/VTES-trait-icons.mse-include/trait-images
 	clanB:
-		visible: { card.layout == "library" and card.clanA != ""}
-		left:	68
+		visible: { card.layout == "library"}
+		left:	{ if card.clanB == "flight" then 71 else 68}
 		top:	513
-		width:	116
-		height:	128
+		width:	{ if card.clanB == "flight" then 96 else 116}
+		height:	{ if card.clanB == "flight" then 99 else 128}
 		render style: image
 		alignment: middle center
 		z index: 5
