@@ -1,0 +1,525 @@
+﻿mse version: 2.0.0
+version: 2024-09-29
+short name: clans
+depends on:
+	package: VTES.mse-game
+	version: 2024-09-29
+
+image font size: 15
+scale text: true
+horizontal space: 4
+
+
+symbol:
+	code: (abo)
+	image: Abomination.gif
+	image font size: 100
+symbol:
+	code: (ahr)
+	image: Ahrimanes.gif
+	image font size: 130
+symbol:
+	code: (aku)
+	image: Akunanse.gif
+	image font size: 180
+symbol:
+	code: (ass)
+	image: Assamite.gif
+	image font size: 40
+symbol:
+	code: (baa)
+	image: Baali.gif
+	image font size: 150
+symbol:
+	code: (blo)
+	image: Blood_Brothers.gif
+	image font size: 150
+symbol:
+	code: (bru)
+	image: Brujah.gif
+	image font size: 70
+symbol:
+	code: (bra)
+	image: Brujah_anti.gif
+	image font size: 70
+symbol:
+	code: (cai)
+	image: Caitiff.gif
+	image font size: 80
+symbol:
+	code: (dau)
+	image: Daughters_of_Cacophony.gif
+	image font size: 110
+symbol:
+	code: (fol)
+	image: Followers_of_Set.gif
+	image font size: 80
+symbol:
+	code: (gan)
+	image: Gangrel.gif
+	image font size: 70
+symbol:
+	code: (gaa)
+	image: Gangrel_anti.gif
+	image font size: 60
+symbol:
+	code: (gar)
+	image: Gargoyles.gif
+	image font size: 150
+symbol:
+	code: (gio)
+	image: Giovanni.gif
+	image font size: 75
+symbol:
+	code: (gur)
+	image: Guruhi.gif
+	image font size: 200
+symbol:
+	code: (har)
+	image: Harbingers_of_Skulls.gif
+	image font size: 70
+symbol:
+	code: (ish)
+	image: Ishtarri.gif
+	image font size: 150
+symbol:
+	code: (kia)
+	image: Kiasyd.gif
+	image font size: 70
+symbol:
+	code: (las)
+	image: Lasombra.gif
+	image font size: 70
+symbol:
+	code: (mal)
+	image: Malkavian.gif
+	image font size: 75
+symbol:
+	code: (maa)
+	image: Malkavian_anti.gif
+	image font size: 70
+symbol:
+	code: (nag)
+	image: Nagaraja.gif
+	image font size: 150
+symbol:
+	code: (nos)
+	image: Nosferatu.gif
+	image font size: 80
+symbol:
+	code: (noa)
+	image: Nosferatu_anti.gif
+	image font size: 65
+symbol:
+	code: (ose)
+	image: Osebo.gif
+	image font size: 150
+symbol:
+	code: (pan)
+	image: Panders.gif
+	image font size: 75
+symbol:
+	code: (rav)
+	image: Ravnos.gif
+	image font size: 70
+symbol:
+	code: (sal)
+	image: Salubri.gif
+	image font size: 150
+symbol:
+	code: (saa)
+	image: Salubri_anti.gif
+	image font size: 70
+symbol:
+	code: (sam)
+	image: Samedi.gif
+	image font size: 150
+symbol:
+	code: (tor)
+	image: Toreador.gif
+	image font size: 70
+symbol:
+	code: (toa)
+	image: Toreador_anti.gif
+	image font size: 60
+symbol:
+	code: (tre)
+	image: Tremere.gif
+	image font size: 80
+symbol:
+	code: (tra)
+	image: Tremere_anti.gif
+	image font size: 60
+symbol:
+	code: (tru)
+	image: True_Brujah.gif
+	image font size: 150
+symbol:
+	code: (tzi)
+	image: Tzimisce.gif
+	image font size: 70
+symbol:
+	code: (ven)
+	image: Ventrue.gif
+	image font size: 80
+symbol:
+	code: (vea)
+	image: Ventrue_anti.gif
+	image font size: 70
+
+
+
+symbol:
+	code: (bab)
+	image font size: 15
+	image: Discipline_Abombwe.png
+symbol:
+	code: (ban)
+	image font size: 15
+	image: Discipline_Animalism.png
+symbol:
+	code: (bau)
+	image font size: 15
+	image: Discipline_Auspex.png
+symbol:
+	code: (bce)
+	image font size: 15
+	image: Discipline_Celerity.png
+symbol:
+	code: (bch)
+	image font size: 15
+	image: Discipline_Chimerstry.png
+symbol:
+	code: (bda)
+	image font size: 15
+	image: Discipline_Daimoinon.png
+symbol:
+	code: (bde)
+	image font size: 15
+	image: Discipline_Dementation.png
+symbol:
+	code: (bdo)
+	image font size: 15
+	image: Discipline_Dominate.png
+symbol:
+	code: (bfo)
+	image font size: 15
+	image: Discipline_Fortitude.png
+symbol:
+	code: (bma)
+	image font size: 15
+	image: Discipline_Maleficia.png
+symbol:
+	code: (bme)
+	image font size: 15
+	image: Discipline_Melpominee.png
+symbol:
+	code: (bmy)
+	image font size: 15
+	image: Discipline_Mytherceria.png
+symbol:
+	code: (bne)
+	image font size: 15
+	image: Discipline_Necromancy.png
+symbol:
+	code: (bob)
+	image font size: 15
+	image: Discipline_Obeah.png
+symbol:
+	code: (bof)
+	image font size: 15
+	image: Discipline_Obfuscate.png
+symbol:
+	code: (bot)
+	image font size: 15
+	image: Discipline_Obtenebration.png
+symbol:
+	code: (bpo)
+	image font size: 15
+	image: Discipline_Potence.png
+symbol:
+	code: (bpr)
+	image font size: 15
+	image: Discipline_Presence.png
+symbol:
+	code: (bpt)
+	image font size: 15
+	image: Discipline_Protean.png
+symbol:
+	code: (bqu)
+	image font size: 15
+	image: Discipline_Quietus.png
+symbol:
+	code: (bsa)
+	image font size: 15
+	image: Discipline_Sanguinus.png
+symbol:
+	code: (bse)
+	image font size: 15
+	image: Discipline_Serpentis.png
+symbol:
+	code: (bsp)
+	image font size: 15
+	image: Discipline_Spiritus.png
+symbol:
+	code: (bst)
+	image font size: 15
+	image: Discipline_Striga.png
+symbol:
+	code: (bte)
+	image font size: 15
+	image: Discipline_Temporis.png
+symbol:
+	code: (bth)
+	image font size: 15
+	image: Discipline_Thanatosis.png
+symbol:
+	code: (bta)
+	image font size: 15
+	image: Discipline_Thaumaturgy.png
+symbol:
+	code: (bva)
+	image font size: 15
+	image: Discipline_Valeran.png
+symbol:
+	code: (bvi)
+	image font size: 15
+	image: Discipline_Vicissitude.png
+symbol:
+	code: (bvc)
+	image font size: 15
+	image: Discipline_Visceratika.png
+
+
+
+symbol:
+	code: (aab)
+	image font size: 20
+	image: Discipline_AbombweSUP.png
+symbol:
+	code: (aan)
+	image font size: 20
+	image: Discipline_AnimalismSUP.png
+symbol:
+	code: (aau)
+	image font size: 20
+	image: Discipline_AuspexSUP.png
+symbol:
+	code: (ace)
+	image font size: 20
+	image: Discipline_CeleritySUP.png
+symbol:
+	code: (ach)
+	image font size: 20
+	image: Discipline_ChimerstrySUP.png
+symbol:
+	code: (ada)
+	image font size: 20
+	image: Discipline_DaimoinonSUP.png
+symbol:
+	code: (ade)
+	image font size: 20
+	image: Discipline_DementationSUP.png
+symbol:
+	code: (ado)
+	image font size: 20
+	image: Discipline_DominateSUP.png
+symbol:
+	code: (afo)
+	image font size: 20
+	image: Discipline_FortitudeSUP.png
+symbol:
+	code: (ama)
+	image font size: 20
+	image: Discipline_MaleficiaSUP.png
+symbol:
+	code: (ame)
+	image font size: 20
+	image: Discipline_MelpomineeSUP.png
+symbol:
+	code: (amy)
+	image font size: 20
+	image: Discipline_MytherceriaSUP.png
+symbol:
+	code: (ane)
+	image font size: 20
+	image: Discipline_NecromancySUP.png
+symbol:
+	code: (aob)
+	image font size: 20
+	image: Discipline_ObeahSUP.png
+symbol:
+	code: (aof)
+	image font size: 20
+	image: Discipline_ObfuscateSUP.png
+symbol:
+	code: (aot)
+	image font size: 20
+	image: Discipline_ObtenebrationSUP.png
+symbol:
+	code: (apo)
+	image font size: 20
+	image: Discipline_PotenceSUP.png
+symbol:
+	code: (apr)
+	image font size: 20
+	image: Discipline_PresenceSUP.png
+symbol:
+	code: (apt)
+	image font size: 20
+	image: Discipline_ProteanSUP.png
+symbol:
+	code: (aqu)
+	image font size: 20
+	image: Discipline_QuietusSUP.png
+symbol:
+	code: (asa)
+	image font size: 20
+	image: Discipline_SanguinusSUP.png
+symbol:
+	code: (ase)
+	image font size: 20
+	image: Discipline_SerpentisSUP.png
+symbol:
+	code: (asp)
+	image font size: 20
+	image: Discipline_SpiritusSUP.png
+symbol:
+	code: (ast)
+	image font size: 20
+	image: Discipline_StrigaSUP.png
+symbol:
+	code: (ate)
+	image font size: 20
+	image: Discipline_TemporisSUP.png
+symbol:
+	code: (ath)
+	image font size: 20
+	image: Discipline_ThanatosisSUP.png
+symbol:
+	code: (ata)
+	image font size: 20
+	image: Discipline_ThaumaturgySUP.png
+symbol:
+	code: (ava)
+	image font size: 20
+	image: Discipline_ValeranSUP.png
+symbol:
+	code: (avi)
+	image font size: 20
+	image: Discipline_VicissitudeSUP.png
+symbol:
+	code: (avc)
+	image font size: 20
+	image: Discipline_VisceratikaSUP.png
+
+
+
+##############################################################
+# Insert-symbol menu
+insert symbol menu:
+	item: 
+		name: clan
+		item: (abo)
+		item: (ahr)
+		item: (aku)
+		item: (ass)
+		item: (baa)
+		item: (blo)
+		item: (bru)
+		item: (bra)
+		item: (cai)
+		item: (dau)
+		item: (fol)
+		item: (gan)
+		item: (gaa)
+		item: (gar)
+		item: (gio)
+		item: (gur)
+		item: (har)
+		item: (ish)
+		item: (kia)
+		item: (las)
+		item: (mal)
+		item: (maa)
+		item: (nag)
+		item: (nos)
+		item: (noa)
+		item: (ose)
+		item: (pan)
+		item: (rav)
+		item: (sal)
+		item: (saa)
+		item: (sam)
+		item: (tor)
+		item: (toa)
+		item: (tre)
+		item: (tra)
+		item: (tru)
+		item: (tzi)
+		item: (ven)
+		item: (vea)
+	item:
+		name: Discipline
+		item: (bab)
+		item: (bau)
+		item: (bce)
+		item: (bch)
+		item: (bda)
+		item: (bde)
+		item: (bdo)
+		item: (bfo)
+		item: (bma)
+		item: (bme)
+		item: (bmy)
+		item: (bne)
+		item: (bob)
+		item: (bof)
+		item: (bot)
+		item: (bpo)
+		item: (bpr)
+		item: (bpt)
+		item: (bqu)
+		item: (bsa)
+		item: (bse)
+		item: (bsp)
+		item: (bst)
+		item: (bte)
+		item: (bth)
+		item: (bta)
+		item: (bva)
+		item: (bvi)
+		item: (bvc)
+	item:
+		name: Advanced Discipline
+		item: (aab)
+		item: (aau)
+		item: (ace)
+		item: (ach)
+		item: (ada)
+		item: (ade)
+		item: (ado)
+		item: (afo)
+		item: (ama)
+		item: (ame)
+		item: (amy)
+		item: (ane)
+		item: (aob)
+		item: (aof)
+		item: (aot)
+		item: (apo)
+		item: (apr)
+		item: (apt)
+		item: (aqu)
+		item: (asa)
+		item: (ase)
+		item: (asp)
+		item: (ast)
+		item: (ate)
+		item: (ath)
+		item: (ata)
+		item: (ava)
+		item: (avi)
+		item: (avc)
+#	item:	
+#		label: Other
