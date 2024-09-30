@@ -29,11 +29,11 @@ symbol:
 symbol:
 	code: (baa)
 	image: Baali.gif
-	image font size: 150
+	image font size: 130
 symbol:
 	code: (blo)
 	image: Blood_Brothers.gif
-	image font size: 150
+	image font size: 130
 symbol:
 	code: (bru)
 	image: Brujah.gif
@@ -49,7 +49,7 @@ symbol:
 symbol:
 	code: (dau)
 	image: Daughters_of_Cacophony.gif
-	image font size: 110
+	image font size: 150
 symbol:
 	code: (fol)
 	image: Followers_of_Set.gif
