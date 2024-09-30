@@ -1,15 +1,15 @@
 ﻿mse version: 2.0.0
 version: 2024-09-29
-short name: attacks
-installer group: DnDStatcards/Attack symbols
-position hint: 001
-icon: 
+short name: clans
 depends on:
 	package: VTES.mse-game
 	version: 2024-09-29
 
-image font size: 160
+image font size: 12
+scale text: true
 horizontal space: 2
+
+
 symbol:
 	code: (abo)
 	image: Abomination.gif
@@ -17,7 +17,6 @@ symbol:
 symbol:
 	code: (ahr)
 	image: Ahrimanes.gif
-	image font size: 12
 symbol:
 	code: (aku)
 	image: Akunanse.gif
@@ -33,15 +32,12 @@ symbol:
 symbol:
 	code: (blo)
 	image: Blood_Brothers.gif
-	image font size: 12
 symbol:
 	code: (bru)
 	image: Brujah.gif
-	image font size: 12
 symbol:
 	code: (bra)
 	image: Brujah_anti.gif
-	image font size: 12
 symbol:
 	code: (cai)
 	image: Caitiff.gif
@@ -49,7 +45,6 @@ symbol:
 symbol:
 	code: (dau)
 	image: Daughters_of_Cacophony.gif
-	image font size: 12
 symbol:
 	code: (fol)
 	image: Followers_of_Set.gif
@@ -57,11 +52,9 @@ symbol:
 symbol:
 	code: (gan)
 	image: Gangrel.gif
-	image font size: 12
 symbol:
 	code: (gaa)
 	image: Gangrel_anti.gif
-	image font size: 12
 symbol:
 	code: (gar)
 	image: Gargoyle.gif
@@ -77,31 +70,24 @@ symbol:
 symbol:
 	code: (har)
 	image: Harbingers_of_Skulls.gif
-	image font size: 12
 symbol:
 	code: (ish)
 	image: Ishtarri.gif
-	image font size: 12
 symbol:
 	code: (kia)
 	image: Kiasyd.gif
-	image font size: 12
 symbol:
 	code: (las)
 	image: Lasombra.gif
-	image font size: 12
 symbol:
 	code: (mal)
 	image: Malkavian.gif
-	image font size: 14
 symbol:
 	code: (maa)
 	image: Malkavian_anti.gif
-	image font size: 12
 symbol:
 	code: (nag)
 	image: Nagaraja.gif
-	image font size: 12
 symbol:
 	code: (nos)
 	image: Nosferatu.gif
@@ -109,39 +95,31 @@ symbol:
 symbol:
 	code: (noa)
 	image: Nosferatu_anti.gif
-	image font size: 12
 symbol:
 	code: (ose)
 	image: Osebo.gif
-	image font size: 12
 symbol:
 	code: (pan)
 	image: Pander.gif
-	image font size: 12
 symbol:
 	code: (rav)
 	image: Ravnos.gif
-	image font size: 12
 symbol:
 	code: (sal)
 	image: Salubri.gif
-	image font size: 12
 symbol:
 	code: (saa)
 	image: Salubri_anti.gif
-	image font size: 12
 symbol:
 	code: (sam)
 	image: Samedi.gif
-	image font size: 12
+	image font size: 14
 symbol:
 	code: (tor)
 	image: Toreador.gif
-	image font size: 12
 symbol:
 	code: (toa)
 	image: Toreador_anti.gif
-	image font size: 12
 symbol:
 	code: (tre)
 	image: Tremere.gif
@@ -165,7 +143,6 @@ symbol:
 symbol:
 	code: (vea)
 	image: Ventrue_anti.gif
-	image font size: 12
 
 ##############################################################
 # Insert-symbol menu
