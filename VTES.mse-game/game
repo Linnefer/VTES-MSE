@@ -412,6 +412,7 @@ card field:
 	include file: /VTES-trait-icons.mse-include/costs
 	description: Fourth Discipline/Burn
 
+############################# Clans
 
 card field:
 	type: choice
@@ -433,3 +434,11 @@ card field:
 	choice: AssamiteA
 	choice: AssamiteB
 	choice: AssamiteC
+
+############################# Advanced
+card field:
+	type: choice
+	name: advanced
+	default: ""
+	choice:
+	choice: Advanced
