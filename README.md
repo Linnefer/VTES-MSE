@@ -11,5 +11,5 @@ Helpful notes:
 * library cards follow the *2020* design of filling disciplines bottom to top, not the 1994 design of top to bottom.
 
 Todo:
-* Implement Twin-Type Cards
+* Implement Twin-Type Library Cards
 * Supplemnt the various ACTION icons missing.
