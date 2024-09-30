@@ -41,7 +41,7 @@ symbol:
 symbol:
 	code: (bra)
 	image: Brujah_anti.gif
-	image font size: 70
+	image font size: 60
 symbol:
 	code: (cai)
 	image: Caitiff.gif
@@ -73,11 +73,11 @@ symbol:
 symbol:
 	code: (gur)
 	image: Guruhi.gif
-	image font size: 200
+	image font size: 180
 symbol:
 	code: (har)
 	image: Harbingers_of_Skulls.gif
-	image font size: 70
+	image font size: 60
 symbol:
 	code: (ish)
 	image: Ishtarri.gif
@@ -97,7 +97,7 @@ symbol:
 symbol:
 	code: (maa)
 	image: Malkavian_anti.gif
-	image font size: 70
+	image font size: 60
 symbol:
 	code: (nag)
 	image: Nagaraja.gif
@@ -105,19 +105,19 @@ symbol:
 symbol:
 	code: (nos)
 	image: Nosferatu.gif
-	image font size: 80
+	image font size: 75
 symbol:
 	code: (noa)
 	image: Nosferatu_anti.gif
-	image font size: 65
+	image font size: 60
 symbol:
 	code: (ose)
 	image: Osebo.gif
-	image font size: 150
+	image font size: 130
 symbol:
 	code: (pan)
 	image: Panders.gif
-	image font size: 75
+	image font size: 60
 symbol:
 	code: (rav)
 	image: Ravnos.gif
@@ -125,11 +125,11 @@ symbol:
 symbol:
 	code: (sal)
 	image: Salubri.gif
-	image font size: 150
+	image font size: 130
 symbol:
 	code: (saa)
 	image: Salubri_anti.gif
-	image font size: 70
+	image font size: 65
 symbol:
 	code: (sam)
 	image: Samedi.gif
@@ -165,7 +165,7 @@ symbol:
 symbol:
 	code: (vea)
 	image: Ventrue_anti.gif
-	image font size: 70
+	image font size: 60
 
 
 
