@@ -292,6 +292,18 @@ card style:
 			blooddisk: /VTES-trait-icons.mse-include/blooddisk.png
 
 	############################# Clan Icons
+
+	advanced:
+		visible: { card.layout == "crypt" }
+		left:	{ if card.layout == "crypt" then 110 else 1000 }
+		top:	300
+		width:	30
+		height:	52
+		render style: image
+		alignment: middle center
+		z index: 6
+		include file: 	/VTES-trait-icons.mse-include/trait-images
+
 	clanA:
 		visible: { card.layout == "library" }
 		left:	{ if card.layout == "library" then 68 else 1000 }
