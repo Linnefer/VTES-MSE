@@ -501,6 +501,38 @@ card style:
 			size: 12
 			color: rgb(255,255,255)
 
+	bottomlineL:
+		z index: 5
+		left:	184
+		top:	1025
+		width:	{ if card.layout=="library" then 544 else 550 }
+		height:	14
+		alignment: left bottom shrink-overflow
+		angle:	0
+		font:
+			name: Gill Sans MT
+			shadow color: rgb(0,0,0)
+			shadow displacement x: 2
+			shadow displacement y: 2
+			size: 12
+			color: rgb(255,255,255)
+	bottomlineR:
+		z index: 5
+		left:	184
+		top:	1025
+		width:	{ if card.layout=="library" then 544 else 550 }
+		height:	14
+		alignment: right bottom shrink-overflow
+		angle:	0
+		font:
+			name: Gill Sans MT
+			shadow color: rgb(0,0,0)
+			shadow displacement x: 2
+			shadow displacement y: 2
+			size: 12
+			color: rgb(255,255,255)
+
+
 	############################# Artist
 
 	number:
