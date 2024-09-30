@@ -487,7 +487,7 @@ card style:
 			color: rgb(0,0,0)
 		symbol font:
 			name: VTES
-			size: 12
+			size: 6
 		alignment: left middle
 		z index: 9
 		padding left:   3
