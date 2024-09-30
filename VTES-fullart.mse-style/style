@@ -8,6 +8,8 @@ position hint: 01
 version: 2024-09-29
 depends on: VTES.mse-game version: 2024-09-29
 depends on: VTES-trait-icons.mse-include version: 2024-09-29
+depends on: VTES.mse-symbol-font version: 2024-09-29
+
 
 card width: 819
 card height: 1114
@@ -278,6 +280,9 @@ card style:
 			name: ITC Quorum Std Medium
 			size: 36
 			color: rgb(255,255,255)
+		symbol font:
+			name: VTES
+			size: 18
 
 	blooddisk:
 		visible: { card.layout=="library" and card.blood != "" }
@@ -480,6 +485,9 @@ card style:
 			size: 21
 			scale down to: 12
 			color: rgb(0,0,0)
+		symbol font:
+			name: VTES
+			size: 12
 		alignment: left middle
 		z index: 9
 		padding left:   3
