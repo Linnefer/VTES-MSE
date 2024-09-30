@@ -6,6 +6,7 @@ position hint: 3
 version: 2024-09-29
 
 depends on: VTES-trait-icons.mse-include version: 2024-09-29
+depends on: VTES.mse-symbol-font version: 2024-09-29
 
 
 ############################################################## Functions & filters
