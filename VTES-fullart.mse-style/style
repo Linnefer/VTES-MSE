@@ -282,7 +282,7 @@ card style:
 			color: rgb(255,255,255)
 		symbol font:
 			name: VTES
-			size: 18
+			size: 12
 
 	blooddisk:
 		visible: { card.layout=="library" and card.blood != "" }
