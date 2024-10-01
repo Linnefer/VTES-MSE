@@ -8,8 +8,7 @@ They are **not** included in this archive.
 
 Helpful notes:
 * library cards are a little funky with the disciplines and clan markers: clan icons are larger and can be clicked on on the *right*, the disciplines are smaller and *atop* the clan markers. The lower clan marker *also* serves as the flight marker's position. Assamite clan markers are **separate** and exist in 3 variants (bottom, mid, top) - you can click that field above the upper clan marker.
-* library cards follow the *2020* design of filling disciplines bottom to top, not the 1994 design of top to bottom.
+* library cards follow the *2020* design of filling disciplines / burn bottom to top, not the 1994 design of top to bottom.
 
 Todo:
 * Implement Twin-Type Library Cards
-* Supplemnt the various ACTION icons missing.
