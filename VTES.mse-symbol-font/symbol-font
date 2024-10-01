@@ -1,4 +1,4 @@
-﻿mse version: 2.0.0
+mse version: 2.0.0
 version: 2024-09-29
 short name: clans
 depends on:
@@ -432,7 +432,7 @@ symbol:
 	image: conviction.gif
 symbol:
 	code: (da)
-	image font size: 80
+	image font size: 65
 	image: directedaction.gif
 symbol:
 	code: (eq)
@@ -444,7 +444,7 @@ symbol:
 	image: event.gif
 symbol:
 	code: (fl)
-	image font size: 80
+	image font size: 50
 	image: flight.gif
 symbol:
 	code: (me)
