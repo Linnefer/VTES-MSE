@@ -488,7 +488,7 @@ card style:
 		symbol font:
 			name: VTES
 			size: 6
-		alignment: left middle
+		alignment:  { if card.layout=="library" then "center middle" else "left middle" }
 		z index: 9
 		padding left:   3
 		padding top:    0
