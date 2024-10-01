@@ -414,6 +414,68 @@ symbol:
 	image: Discipline_VisceratikaSUP.png
 
 
+symbol:
+	code: (ac)
+	image font size: 80
+	image: action.gif
+symbol:
+	code: (al)
+	image font size: 80
+	image: ally.gif
+symbol:
+	code: (co)
+	image font size: 80
+	image: combat.gif
+symbol:
+	code: (cn)
+	image font size: 80
+	image: conviction.gif
+symbol:
+	code: (da)
+	image font size: 80
+	image: directedaction.gif
+symbol:
+	code: (eq)
+	image font size: 80
+	image: equipment.gif
+symbol:
+	code: (ev)
+	image font size: 80
+	image: event.gif
+symbol:
+	code: (fl)
+	image font size: 80
+	image: flight.gif
+symbol:
+	code: (me)
+	image font size: 80
+	image: mergedold.gif
+symbol:
+	code: (mo)
+	image font size: 80
+	image: modifier.gif
+symbol:
+	code: (po)
+	image font size: 80
+	image: political.gif
+symbol:
+	code: (pw)
+	image font size: 80
+	image: power.gif
+symbol:
+	code: (re)
+	image font size: 80
+	image: reaction.gif
+symbol:
+	code: (rf)
+	image font size: 80
+	image: reflex.gif
+symbol:
+	code: (rt)
+	image font size: 80
+	image: retainer.gif
+
+
 
 ##############################################################
 # Insert-symbol menu
@@ -521,5 +583,20 @@ insert symbol menu:
 		item: (ava)
 		item: (avi)
 		item: (avc)
-#	item:	
-#		label: Other
+	item:	
+		name: Other
+		item: (ac)
+		item: (al)
+		item: (co)
+		item: (cn)
+		item: (da)
+		item: (eq)
+		item: (ev)
+		item: (fl)
+		item: (me)
+		item: (mo)
+		item: (po)
+		item: (pw)
+		item: (re)
+		item: (rf)
+		item: (rt)
