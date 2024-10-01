@@ -292,7 +292,7 @@ card field:
 	type: text
 	name: bottomlineR
 	save value: false
-	script: "VETES © 2020 Paradox Interaactive AB (publ)"
+	script: "V:TES © 2020 Paradox Interaactive AB (publ)"
 	editable: false
 	show statistics: false
 
