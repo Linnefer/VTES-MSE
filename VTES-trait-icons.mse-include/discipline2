@@ -1,7 +1,7 @@
 # The choices for first column of character trait line (faction/fera/garou tribe)
 # Included by a game file
 
-choice:
+choice: Burn
 choice: 
 	name:	Discipline
 	choice:	Abombwe
