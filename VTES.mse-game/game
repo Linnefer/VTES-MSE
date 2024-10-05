@@ -385,8 +385,9 @@ card field:
 	type: choice
 	name: bdiscipline1
 	default: ""
+	include file: /VTES-trait-icons.mse-include/clanB
 	include file: /VTES-trait-icons.mse-include/discipline2
-	description: First Discipline
+	description: 2nd Clan, or First Discipline - automatically rescales
 card field:
 	type: choice
 	name: bdiscipline2
@@ -421,12 +422,6 @@ card field:
 	default: ""
 	include file: /VTES-trait-icons.mse-include/clanA
 	description: Clan for a Card
-card field:
-	type: choice
-	name: clanB
-	default: ""
-	include file: /VTES-trait-icons.mse-include/clanB
-	description: 2nd Clan for a Card / Flight
 card field:
 	type: choice
 	name: clanAssamite
