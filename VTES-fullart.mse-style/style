@@ -319,16 +319,6 @@ card style:
 		alignment: middle center
 		z index: 6
 		include file: 	/VTES-trait-icons.mse-include/trait-images
-	clanB:
-		visible: { card.layout == "library"}
-		left:	{ if card.clanB == "flight" then 71 else if card.layout == "library" then 68 else 1000 }
-		top:	513
-		width:	{ if card.clanB == "flight" then 96 else 116}
-		height:	{ if card.clanB == "flight" then 99 else 128}
-		render style: image
-		alignment: middle center
-		z index: 5
-		include file: 	/VTES-trait-icons.mse-include/trait-images
 	clanAssamite:
 		visible: { card.layout == "library"}
 		left:	{ if card.layout == "library" then 68 else 1000 }
@@ -419,22 +409,20 @@ card style:
 		include file: 	/VTES-trait-icons.mse-include/trait-images
 
 
-
-
 	bdiscipline1:
 		visible: { card.layout == "library" }
-		left:	{ if card.layout == "library" then 83 else 1000 }
-		top:	722
-		width:	72
-		height:	72
+		left:	{ if card.layout != "library" then 1000 else if card.bdiscipline1 == "flight" or contains(card.bdiscipline1, match: "Clan") then 68 else 83 }
+		top:	{ if card.bdiscipline1 == "flight" then 513 else if contains(card.bdiscipline1, match: "Clan") then 513 else 524 }
+		width:	{ if card.bdiscipline1 == "flight" then 96 else if contains(card.bdiscipline1, match: "Clan") then 116 else 72 }
+		height:	{ if card.bdiscipline1 == "flight" then 99 else if contains(card.bdiscipline1, match: "Clan") then 128 else 72 }
 		render style: image
 		alignment: middle center
 		z index: 10
 		include file: 	/VTES-trait-icons.mse-include/trait-images
 	bdiscipline2:
-		visible: { card.layout == "library" and card.bdiscipline1 != ""}
+		visible: { card.layout == "library" and card.bdiscipline1 != "" and not contains(card.bdiscipline1, match: "Clan")}
 		left:	{ if card.layout == "library" then 83 else 1000 }
-		top:	656
+		top:	590
 		width:	72
 		height:	72
 		render style: image
@@ -442,9 +430,9 @@ card style:
 		z index: 10
 		include file: 	/VTES-trait-icons.mse-include/trait-images
 	bdiscipline3:
-		visible: { card.layout == "library" and card.bdiscipline2 != ""}
+		visible: { card.layout == "library" and ((card.bdiscipline2 != "") or (contains(card.bdiscipline1, match: "Clan") and card.bdiscipline1 != ""))}
 		left:	{ if card.layout == "library" then 83 else 1000 }
-		top:	590
+		top:	656
 		width:	72
 		height:	72
 		render style: image
@@ -454,7 +442,7 @@ card style:
 	bdiscipline4:
 		visible: { card.layout == "library" and card.bdiscipline3 != ""}
 		left:	{ if card.layout == "library" then 83 else 1000 }
-		top:	524
+		top:	722
 		width:	72
 		height:	72
 		render style: image
