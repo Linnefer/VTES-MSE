@@ -4,7 +4,7 @@ The proper fonts for VTES are (based on https://rec.games.trading-cards.jyhad.na
 * Card text: Gill Sans MT
 * Capacity: ITC Quorum Std Medium
 
-They are **not** included in this archive.
+They are in the VTES-Fonts folder to be installed manually.
 
 Helpful notes:
 * library cards are a little funky with the disciplines and clan markers:
