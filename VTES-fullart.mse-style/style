@@ -310,7 +310,7 @@ card style:
 		include file: 	/VTES-trait-icons.mse-include/trait-images
 
 	clanA:
-		visible: { card.layout == "library" }
+		visible: { card.layout == "library" and not contains(card.clanAssamite, match: "AssamiteB")}
 		left:	{ if card.layout == "library" then 68 else 1000 }
 		top:	401
 		width:	116
@@ -410,7 +410,7 @@ card style:
 
 
 	bdiscipline1:
-		visible: { card.layout == "library" }
+		visible: { card.layout == "library" and not contains(card.clanAssamite, match: "AssamiteA")}
 		left:	{ if card.layout != "library" then 1000 else if card.bdiscipline1 == "flight" or contains(card.bdiscipline1, match: "Clan") then 68 else 83 }
 		top:	{ if card.bdiscipline1 == "flight" then 513 else if contains(card.bdiscipline1, match: "Clan") then 513 else 524 }
 		width:	{ if card.bdiscipline1 == "flight" then 96 else if contains(card.bdiscipline1, match: "Clan") then 116 else 72 }
@@ -420,7 +420,7 @@ card style:
 		z index: 10
 		include file: 	/VTES-trait-icons.mse-include/trait-images
 	bdiscipline2:
-		visible: { card.layout == "library" and card.bdiscipline1 != "" and not contains(card.bdiscipline1, match: "Clan")}
+		visible: { card.layout == "library" and card.bdiscipline1 != "" and not contains(card.bdiscipline1, match: "Clan") and not contains(card.clanAssamite, match: "AssamiteA")}
 		left:	{ if card.layout == "library" then 83 else 1000 }
 		top:	590
 		width:	72
@@ -430,7 +430,7 @@ card style:
 		z index: 10
 		include file: 	/VTES-trait-icons.mse-include/trait-images
 	bdiscipline3:
-		visible: { card.layout == "library" and ((card.bdiscipline2 != "") or (contains(card.bdiscipline1, match: "Clan") and card.bdiscipline1 != ""))}
+		visible: { card.layout == "library" and ((card.bdiscipline2 != "") or (contains(card.bdiscipline1, match: "Clan") and card.bdiscipline1 != "")) or contains(card.clanAssamite, match: "AssamiteA")}
 		left:	{ if card.layout == "library" then 83 else 1000 }
 		top:	656
 		width:	72
