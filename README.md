@@ -7,7 +7,9 @@ The proper fonts for VTES are (based on https://rec.games.trading-cards.jyhad.na
 They are **not** included in this archive.
 
 Helpful notes:
-* library cards are a little funky with the disciplines and clan markers: clan icons are larger and can be clicked on on the *right*, the disciplines are smaller and *atop* the clan markers. The lower clan marker *also* serves as the flight marker's position. Assamite clan markers are **separate** and exist in 3 variants (bottom, mid, top) - you can click that field above the upper clan marker.
+* library cards are a little funky with the disciplines and clan markers:
+  * The first discipline marker *also* serves as the flight marker and as the 2nd clan marker. Choosing a clan hides the 2nd discipline marker and jumps directly to the 3rd!
+  * Assamite clan markers are **separate** and exist in 3 variants (bottom, mid, top) - you can click that field above the upper clan marker or right of the 1st Discipline. The Lower position *overwrites* two discipline dots, the *middle* position overwrites the normal clan position!
 * library cards follow the *2020* design of filling disciplines / burn bottom to top, not the 1994 design of top to bottom.
 
 Todo:
